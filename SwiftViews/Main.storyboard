@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3xS-8B-Yag">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -37,7 +37,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="LNi-BI-Ee5" kind="show" id="2lk-ZE-b9L"/>
+                                    <segue destination="RRm-2h-1Xi" kind="show" id="nqd-OY-6e5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAD-05-3UC">
@@ -54,9 +54,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="Dp1-kN-cbX" kind="show" id="1rh-hf-v8o"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryz-eM-VxT">
                                 <rect key="frame" x="46" y="279" width="137" height="56"/>
@@ -72,9 +69,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="JhN-lz-tpW" kind="show" id="euf-c4-MyC"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFA-u1-ubA">
                                 <rect key="frame" x="231" y="279" width="137" height="56"/>
@@ -90,9 +84,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="9De-n7-pes" kind="show" id="b2f-Bv-Mu8"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhw-ff-iJv">
                                 <rect key="frame" x="46" y="376" width="137" height="56"/>
@@ -108,9 +99,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="Bls-6L-Slq" kind="show" id="i5E-RB-oqx"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZw-3G-8rL">
                                 <rect key="frame" x="231" y="376" width="137" height="56"/>
@@ -126,9 +114,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="MRD-F7-LNE" kind="show" id="lXQ-ZW-UVH"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNC-24-eiC">
                                 <rect key="frame" x="46" y="477" width="137" height="56"/>
@@ -144,9 +129,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="WFm-gX-0I3" kind="show" id="EgO-f2-I5D"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -158,6 +140,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="136.60714285714286"/>
+        </scene>
+        <!--Calculator-->
+        <scene sceneID="jpf-8W-MNR">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Calculator" id="RRm-2h-1Xi" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="KwF-Jr-i9k"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="18F-VX-BXx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1611" y="19"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZzI-Cn-vWk">
@@ -177,74 +169,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oQo-Ru-a22" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="136.60714285714286"/>
-        </scene>
-        <!--Calculator-->
-        <scene sceneID="Ggp-Ad-U2e">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Calculator" referencedIdentifier="Calculator" id="LNi-BI-Ee5" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="0xf-rh-3TI"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QFP-eE-t9p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1817" y="87"/>
-        </scene>
-        <!--Rect-->
-        <scene sceneID="gJs-FP-q2e">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Rectangle" referencedIdentifier="Rect" id="JhN-lz-tpW" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="t1z-Uc-JTo"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tFg-tO-pff" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1791" y="156"/>
-        </scene>
-        <!--Reverse-->
-        <scene sceneID="Tgf-Ie-2hi">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Reverse" referencedIdentifier="Reverse" id="9De-n7-pes" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Fqr-66-xVd"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uDZ-Ku-aHZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1807" y="192"/>
-        </scene>
-        <!--Translate-->
-        <scene sceneID="2Um-Vb-xpF">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Translate" referencedIdentifier="Translate" id="Bls-6L-Slq" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="GHI-Ft-2GR"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jHz-ze-eWd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1812" y="230"/>
-        </scene>
-        <!--GolfLaunchscreen-->
-        <scene sceneID="Qjs-PN-s73">
-            <objects>
-                <viewControllerPlaceholder storyboardName="GolfLaunchscreen" id="MRD-F7-LNE" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FGS-Uj-Vae" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1851" y="264"/>
-        </scene>
-        <!--CardLaunchscreen-->
-        <scene sceneID="I1H-eQ-Irw">
-            <objects>
-                <viewControllerPlaceholder storyboardName="CardLaunchscreen" id="WFm-gX-0I3" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="0Bt-N5-7tN"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ok-US-Ccu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1867" y="303"/>
-        </scene>
-        <!--Pythagorean-->
-        <scene sceneID="X5h-hL-k24">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Pythagorean" referencedIdentifier="Pythagorean" id="Dp1-kN-cbX" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="itP-fg-rTN"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g0E-mU-YsZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1828" y="121"/>
         </scene>
     </scenes>
 </document>

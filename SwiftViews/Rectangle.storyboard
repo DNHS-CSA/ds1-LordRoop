@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Rectangle-->
+        <!--View Controller-->
         <scene sceneID="qjk-Ue-A67">
             <objects>
-                <viewController storyboardIdentifier="Rect" id="mfI-PJ-4ky" customClass="Rectangle" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Rect" id="mfI-PJ-4ky" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YQH-Ga-j4i">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,9 +29,6 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="alert"/>
-                                <connections>
-                                    <action selector="Keyboard:" destination="mfI-PJ-4ky" eventType="editingDidEndOnExit" id="hDj-Iv-Wpj"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Side 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ccn-OL-FEU">
                                 <rect key="frame" x="130" y="328" width="155" height="50"/>
@@ -47,9 +44,6 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="alert"/>
-                                <connections>
-                                    <action selector="Keyboard:" destination="mfI-PJ-4ky" eventType="editingDidEndOnExit" id="pqI-nF-HwA"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrj-h1-Hv0">
                                 <rect key="frame" x="89" y="508" width="237" height="43"/>
@@ -65,9 +59,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="calculate:" destination="mfI-PJ-4ky" eventType="touchUpInside" id="1L8-tg-CMT"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.00000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abX-XW-c6u">
                                 <rect key="frame" x="128" y="559" width="158" height="50"/>
@@ -104,20 +95,11 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="calculate2:" destination="mfI-PJ-4ky" eventType="touchUpInside" id="zbs-VN-WJx"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="9LA-ey-9Hl"/>
                     </view>
-                    <connections>
-                        <outlet property="sideA" destination="0Mi-JE-Q1x" id="mqv-79-1Z6"/>
-                        <outlet property="sideB" destination="ZMe-Fn-wzb" id="pe4-QD-Y5J"/>
-                        <outlet property="sideC" destination="abX-XW-c6u" id="XGi-KH-U7Y"/>
-                        <outlet property="sideD" destination="RSo-wz-QEF" id="QpK-Py-G6B"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mVl-bX-FLP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

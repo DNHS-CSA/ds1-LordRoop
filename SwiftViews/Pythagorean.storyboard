@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rUK-lb-6Ze">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Pyth Controller-->
+        <!--View Controller-->
         <scene sceneID="mPL-iA-7HU">
             <objects>
-                <viewController storyboardIdentifier="Pythagorean" id="rUK-lb-6Ze" customClass="PythController" sceneMemberID="viewController">
+                <viewController id="rUK-lb-6Ze" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kt1-ia-3qS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,9 +22,6 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="alert"/>
-                                <connections>
-                                    <action selector="Keyboard:" destination="rUK-lb-6Ze" eventType="editingDidEndOnExit" id="hLX-Ms-NJ3"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnr-qt-mj4">
                                 <rect key="frame" x="207" y="634" width="0.0" height="0.0"/>
@@ -75,9 +72,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="calculate:" destination="rUK-lb-6Ze" eventType="touchUpInside" id="nAF-bG-Xta"/>
-                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.0" borderStyle="roundedRect" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SjK-J0-EtQ">
                                 <rect key="frame" x="159" y="502" width="97" height="34"/>
@@ -86,19 +80,11 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="alert"/>
-                                <connections>
-                                    <action selector="Keyboard:" destination="rUK-lb-6Ze" eventType="editingDidEndOnExit" id="bUn-oD-crW"/>
-                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.99564847797927458" green="0.5320700952987456" blue="0.017925253344680002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Ijf-uC-XO3"/>
                     </view>
-                    <connections>
-                        <outlet property="side1" destination="uYy-yr-Lti" id="e8t-oe-n7j"/>
-                        <outlet property="side2" destination="SjK-J0-EtQ" id="N2R-iG-VnT"/>
-                        <outlet property="side3" destination="zAN-Az-fX9" id="86A-tz-mNa"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQz-kC-Hkn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
