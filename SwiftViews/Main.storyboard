@@ -54,6 +54,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="mji-fP-Kfl" kind="show" id="adV-kf-Koe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryz-eM-VxT">
                                 <rect key="frame" x="46" y="279" width="137" height="56"/>
@@ -129,6 +132,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="YbE-rs-aKl" kind="show" id="E7R-w1-ulI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -150,6 +156,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="18F-VX-BXx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1611" y="19"/>
+        </scene>
+        <!--Pythag2-->
+        <scene sceneID="laJ-Va-tbO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Pythag2" id="mji-fP-Kfl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hz3-t5-wyK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7da-oz-e75" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1648" y="64"/>
+        </scene>
+        <!--Cards-->
+        <scene sceneID="ahd-Y2-bf7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Cards" id="YbE-rs-aKl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="B41-SC-Nar"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qjT-BJ-is2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1707" y="112"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZzI-Cn-vWk">

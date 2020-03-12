@@ -15,6 +15,10 @@
 		2343B1A824169A9B002EACCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2343B1A724169A9B002EACCE /* Assets.xcassets */; };
 		2343B1B624169A9B002EACCE /* SwiftUIProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343B1B524169A9B002EACCE /* SwiftUIProjectTests.swift */; };
 		2343B1C124169A9B002EACCE /* SwiftUIProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343B1C024169A9B002EACCE /* SwiftUIProjectUITests.swift */; };
+		23A58321241A90DD00139409 /* Pythag2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A58320241A90DD00139409 /* Pythag2.storyboard */; };
+		23A58325241A93A200139409 /* Cards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A58324241A93A200139409 /* Cards.storyboard */; };
+		23A5832A241A959B00139409 /* PythController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A58329241A959B00139409 /* PythController.swift */; };
+		23A5832C241A978900139409 /* RectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A5832B241A978900139409 /* RectController.swift */; };
 		23F678C624193E0100D3ED35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233D1CC92417FC3600146E0B /* LaunchScreen.storyboard */; };
 		23F678C724193E0400D3ED35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233D1CC92417FC3600146E0B /* LaunchScreen.storyboard */; };
 		23F678C824193E0400D3ED35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233D1CC92417FC3600146E0B /* LaunchScreen.storyboard */; };
@@ -48,20 +52,6 @@
 		233D1CC82417FC0600146E0B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		233D1CC92417FC3600146E0B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233D1CCB2417FC9800146E0B /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
-		233D1CCD2417FC9E00146E0B /* Cards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cards.storyboard; sourceTree = "<group>"; };
-		233D1CCE2417FCA600146E0B /* Pythagorean.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagorean.storyboard; sourceTree = "<group>"; };
-		233D1CCF2417FCAC00146E0B /* Rectangle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rectangle.storyboard; sourceTree = "<group>"; };
-		233D1CD22417FCC800146E0B /* Golf1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf1.storyboard; sourceTree = "<group>"; };
-		233D1CD32417FCC800146E0B /* Golf.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf.storyboard; sourceTree = "<group>"; };
-		233D1CD42417FCC800146E0B /* Golf3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf3.storyboard; sourceTree = "<group>"; };
-		233D1CD52417FCC900146E0B /* GolfLevels.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GolfLevels.storyboard; sourceTree = "<group>"; };
-		233D1CD62417FCC900146E0B /* Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wall.png; sourceTree = "<group>"; };
-		233D1CD72417FCCA00146E0B /* golfball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golfball.png; sourceTree = "<group>"; };
-		233D1CD92417FCCB00146E0B /* Blue-water-blue-22687419-2048-1365.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue-water-blue-22687419-2048-1365.jpg"; sourceTree = "<group>"; };
-		233D1CDA2417FCCC00146E0B /* Golf4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf4.storyboard; sourceTree = "<group>"; };
-		233D1CDB2417FCCD00146E0B /* animated-golf-image-0064.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-golf-image-0064.gif"; sourceTree = "<group>"; };
-		233D1CDC2417FCCD00146E0B /* cartoon-golfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cartoon-golfer.png"; sourceTree = "<group>"; };
-		233D1CDD2417FCCE00146E0B /* GolfLaunchscreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GolfLaunchscreen.storyboard; sourceTree = "<group>"; };
 		2343B19B24169A96002EACCE /* SwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2343B19E24169A96002EACCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2343B1A024169A96002EACCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +64,10 @@
 		2343B1BC24169A9B002EACCE /* SwiftUIProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2343B1C024169A9B002EACCE /* SwiftUIProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProjectUITests.swift; sourceTree = "<group>"; };
 		2343B1C224169A9B002EACCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A58320241A90DD00139409 /* Pythag2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythag2.storyboard; sourceTree = "<group>"; };
+		23A58324241A93A200139409 /* Cards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cards.storyboard; sourceTree = "<group>"; };
+		23A58329241A959B00139409 /* PythController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythController.swift; sourceTree = "<group>"; };
+		23A5832B241A978900139409 /* RectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectController.swift; sourceTree = "<group>"; };
 		42478A5C90FCE1F3AAD74C0F /* Pods-SwiftUIProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIProject/Pods-SwiftUIProject.release.xcconfig"; sourceTree = "<group>"; };
 		6B012B3D9A564120F61CA095 /* Pods-SwiftUIProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIProjectTests/Pods-SwiftUIProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		843C80D576D53EC14E16FAC7 /* Pods_SwiftUIProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,47 +109,20 @@
 			isa = PBXGroup;
 			children = (
 				2343B1A724169A9B002EACCE /* Assets.xcassets */,
-				233D1CC82417FC0600146E0B /* Main.storyboard */,
 				233D1CC92417FC3600146E0B /* LaunchScreen.storyboard */,
+				233D1CC82417FC0600146E0B /* Main.storyboard */,
 				233D1CCB2417FC9800146E0B /* Calculator.storyboard */,
-				233D1CCE2417FCA600146E0B /* Pythagorean.storyboard */,
-				233D1CCF2417FCAC00146E0B /* Rectangle.storyboard */,
-				233D1CE12417FD5F00146E0B /* GolfViews */,
-				233D1CCD2417FC9E00146E0B /* Cards.storyboard */,
+				23A58320241A90DD00139409 /* Pythag2.storyboard */,
+				23A58324241A93A200139409 /* Cards.storyboard */,
 			);
 			path = SwiftViews;
-			sourceTree = "<group>";
-		};
-		233D1CE02417FD3400146E0B /* GolfImages */ = {
-			isa = PBXGroup;
-			children = (
-				233D1CDB2417FCCD00146E0B /* animated-golf-image-0064.gif */,
-				233D1CD92417FCCB00146E0B /* Blue-water-blue-22687419-2048-1365.jpg */,
-				233D1CDC2417FCCD00146E0B /* cartoon-golfer.png */,
-				233D1CD72417FCCA00146E0B /* golfball.png */,
-				233D1CD62417FCC900146E0B /* Wall.png */,
-			);
-			path = GolfImages;
-			sourceTree = "<group>";
-		};
-		233D1CE12417FD5F00146E0B /* GolfViews */ = {
-			isa = PBXGroup;
-			children = (
-				233D1CD32417FCC800146E0B /* Golf.storyboard */,
-				233D1CD22417FCC800146E0B /* Golf1.storyboard */,
-				233D1CD42417FCC800146E0B /* Golf3.storyboard */,
-				233D1CDA2417FCCC00146E0B /* Golf4.storyboard */,
-				233D1CDD2417FCCE00146E0B /* GolfLaunchscreen.storyboard */,
-				233D1CD52417FCC900146E0B /* GolfLevels.storyboard */,
-				233D1CE02417FD3400146E0B /* GolfImages */,
-			);
-			path = GolfViews;
 			sourceTree = "<group>";
 		};
 		2343B19224169A96002EACCE = {
 			isa = PBXGroup;
 			children = (
 				2343B19D24169A96002EACCE /* SwiftUIProject */,
+				23A58326241A950B00139409 /* SwiftViewControllers */,
 				233D1CDF2417FCFB00146E0B /* SwiftViews */,
 				2343B1B424169A9B002EACCE /* SwiftUIProjectTests */,
 				2343B1BF24169A9B002EACCE /* SwiftUIProjectUITests */,
@@ -202,6 +169,15 @@
 				2343B1C224169A9B002EACCE /* Info.plist */,
 			);
 			path = SwiftUIProjectUITests;
+			sourceTree = "<group>";
+		};
+		23A58326241A950B00139409 /* SwiftViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				23A58329241A959B00139409 /* PythController.swift */,
+				23A5832B241A978900139409 /* RectController.swift */,
+			);
+			path = SwiftViewControllers;
 			sourceTree = "<group>";
 		};
 		A8358913BAE00E80C930594F /* Pods */ = {
@@ -338,8 +314,10 @@
 			files = (
 				23F678C624193E0100D3ED35 /* LaunchScreen.storyboard in Resources */,
 				233D1CCC2417FC9800146E0B /* Calculator.storyboard in Resources */,
+				23A58321241A90DD00139409 /* Pythag2.storyboard in Resources */,
 				2343B1A824169A9B002EACCE /* Assets.xcassets in Resources */,
 				23F678C924193E2500D3ED35 /* Main.storyboard in Resources */,
+				23A58325241A93A200139409 /* Cards.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,9 +449,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A5832C241A978900139409 /* RectController.swift in Sources */,
 				2343B1A324169A96002EACCE /* ViewController.swift in Sources */,
 				2343B19F24169A96002EACCE /* AppDelegate.swift in Sources */,
 				2343B1A124169A96002EACCE /* SceneDelegate.swift in Sources */,
+				23A5832A241A959B00139409 /* PythController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
