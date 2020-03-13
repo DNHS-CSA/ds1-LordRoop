@@ -15,6 +15,7 @@
 		2343B1A824169A9B002EACCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2343B1A724169A9B002EACCE /* Assets.xcassets */; };
 		2343B1B624169A9B002EACCE /* SwiftUIProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343B1B524169A9B002EACCE /* SwiftUIProjectTests.swift */; };
 		2343B1C124169A9B002EACCE /* SwiftUIProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343B1C024169A9B002EACCE /* SwiftUIProjectUITests.swift */; };
+		23523E03241BDC58003DDD4A /* Rectangle2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23523E02241BDC58003DDD4A /* Rectangle2.storyboard */; };
 		23A58321241A90DD00139409 /* Pythag2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A58320241A90DD00139409 /* Pythag2.storyboard */; };
 		23A58325241A93A200139409 /* Cards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A58324241A93A200139409 /* Cards.storyboard */; };
 		23A5832A241A959B00139409 /* PythController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A58329241A959B00139409 /* PythController.swift */; };
@@ -64,6 +65,7 @@
 		2343B1BC24169A9B002EACCE /* SwiftUIProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2343B1C024169A9B002EACCE /* SwiftUIProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProjectUITests.swift; sourceTree = "<group>"; };
 		2343B1C224169A9B002EACCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23523E02241BDC58003DDD4A /* Rectangle2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rectangle2.storyboard; sourceTree = "<group>"; };
 		23A58320241A90DD00139409 /* Pythag2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythag2.storyboard; sourceTree = "<group>"; };
 		23A58324241A93A200139409 /* Cards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cards.storyboard; sourceTree = "<group>"; };
 		23A58329241A959B00139409 /* PythController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				233D1CC82417FC0600146E0B /* Main.storyboard */,
 				233D1CCB2417FC9800146E0B /* Calculator.storyboard */,
 				23A58320241A90DD00139409 /* Pythag2.storyboard */,
+				23523E02241BDC58003DDD4A /* Rectangle2.storyboard */,
 				23A58324241A93A200139409 /* Cards.storyboard */,
 			);
 			path = SwiftViews;
@@ -315,6 +318,7 @@
 				23F678C624193E0100D3ED35 /* LaunchScreen.storyboard in Resources */,
 				233D1CCC2417FC9800146E0B /* Calculator.storyboard in Resources */,
 				23A58321241A90DD00139409 /* Pythag2.storyboard in Resources */,
+				23523E03241BDC58003DDD4A /* Rectangle2.storyboard in Resources */,
 				2343B1A824169A9B002EACCE /* Assets.xcassets in Resources */,
 				23F678C924193E2500D3ED35 /* Main.storyboard in Resources */,
 				23A58325241A93A200139409 /* Cards.storyboard in Resources */,
